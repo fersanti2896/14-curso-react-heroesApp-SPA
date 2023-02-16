@@ -11,9 +11,10 @@ export const HeroePage = () => {
     const onNavigateBack = () => {
         const publisher = hero.publisher.split(" ");
 
-        navigate(`/${ publisher[0].toLocaleLowerCase() }`, {
-            replace: true
-        });
+        // navigate(`/${ publisher[0].toLocaleLowerCase() }`, {
+        //     replace: true
+        // });
+        navigate(-1);
     }
 
     if( !hero ) {
