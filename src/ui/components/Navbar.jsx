@@ -32,7 +32,7 @@ export const Navbar = ( props ) => {
 
                     <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : '' }` }
                              to="/search">
-                        Buscador
+                        Search
                     </NavLink>
                 </div>
             </div>
